@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
+    background-color: #F8EBF2;
     font-family: Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 
 h1 {
     font-size: 2rem; /* Tamaño de fuente relativo */
-    color: #d9534f;
+    color: #F8EBF2;
     margin-bottom: 20px;
 }
 
