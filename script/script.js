@@ -5,5 +5,5 @@ document.getElementById('noBtn').addEventListener('click', function() {
 });
 
 document.getElementById('siBtn').addEventListener('click', function() {
-    window.location.href = 'sabia-que-querias.html';
+    window.location.href = 'yes.html';
 });

@@ -17,6 +17,13 @@ h1 {
     color: #d9534f;
 }
 
+.main-gif {
+    width: 300px; /* Ajusta el tamaño del GIF */
+    height: auto;
+    margin: 20px 0; /* Espacio alrededor del GIF */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
 .buttons {
     margin-top: 20px;
 }
