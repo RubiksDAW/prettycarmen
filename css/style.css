@@ -50,7 +50,7 @@ button {
 #siBtn {
     background-color: #5cb85c;
     color: white;
-    position: absolute; /* Permite que el botón se superponga */
+    /* Permite que el botón se superponga */
     z-index: 10; /* Asegura que esté por encima de otros elementos */
 }
 
