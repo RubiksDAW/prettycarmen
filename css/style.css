@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     display: flex;
     justify-content: center;
@@ -10,28 +11,34 @@ body {
 
 .container {
     text-align: center;
+    width: 90%; /* Limita el ancho del contenido */
+    max-width: 400px; /* Máximo ancho para pantallas grandes */
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2rem; /* Tamaño de fuente relativo */
     color: #d9534f;
+    margin-bottom: 20px;
 }
 
 .main-gif {
-    width: 300px; /* Ajusta el tamaño del GIF */
+    width: 100%; /* El GIF ocupa el 100% del contenedor */
+    max-width: 300px; /* Máximo ancho para el GIF */
     height: auto;
-    margin: 20px 0; /* Espacio alrededor del GIF */
-    border-radius: 10px; /* Bordes redondeados (opcional) */
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre botones */
     margin-top: 20px;
 }
 
 button {
     padding: 10px 20px;
-    font-size: 1.2em;
-    margin: 0 10px;
+    font-size: 1.2rem; /* Tamaño de fuente relativo */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -46,4 +53,20 @@ button {
 #noBtn {
     background-color: #d9534f;
     color: white;
+}
+
+/* Media Queries para ajustes específicos */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Tamaño de fuente más pequeño en móviles */
+    }
+
+    button {
+        font-size: 1rem; /* Tamaño de fuente más pequeño en móviles */
+        padding: 8px 16px;
+    }
+
+    .main-gif {
+        max-width: 250px; /* GIF más pequeño en móviles */
+    }
 }
