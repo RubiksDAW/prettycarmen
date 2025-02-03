@@ -26,5 +26,6 @@ noBtn.addEventListener('click', function () {
 
 // Redirigir al hacer clic en "Sí"
 siBtn.addEventListener('click', function () {
+    
     window.location.href = 'https://rubiksdaw.github.io/prettycarmen/yes.html';
 });
