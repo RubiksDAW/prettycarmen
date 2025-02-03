@@ -7,24 +7,23 @@ body {
     margin: 0;
     background-color: #F8EBF2;
     font-family: Arial, sans-serif;
-    overflow: hidden; /* Evita el scroll */
 }
 
 .container {
     text-align: center;
-    width: 90%;
-    max-width: 400px;
+    width: 90%; /* Limita el ancho del contenido */
+    max-width: 400px; /* Máximo ancho para pantallas grandes */
 }
 
 h1 {
-    font-size: 2rem;
-    color: #d9534f;
+    font-size: 2rem; /* Tamaño de fuente relativo */
+    color: #F8EBF2;
     margin-bottom: 20px;
 }
 
 .main-gif {
-    width: 100%;
-    max-width: 300px;
+    width: 100%; /* El GIF ocupa el 100% del contenedor */
+    max-width: 300px; /* Máximo ancho para el GIF */
     height: auto;
     margin: 20px 0;
     border-radius: 10px;
@@ -33,25 +32,22 @@ h1 {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; /* Espacio entre botones */
     margin-top: 20px;
 }
 
 button {
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Tamaño de fuente relativo */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.2s;
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 
 #siBtn {
     background-color: #5cb85c;
     color: white;
-    /* Permite que el botón se superponga */
-    z-index: 10; /* Asegura que esté por encima de otros elementos */
 }
 
 #noBtn {
@@ -62,15 +58,15 @@ button {
 /* Media Queries para ajustes específicos */
 @media (max-width: 600px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Tamaño de fuente más pequeño en móviles */
     }
 
     button {
-        font-size: 1rem;
+        font-size: 1rem; /* Tamaño de fuente más pequeño en móviles */
         padding: 8px 16px;
     }
 
     .main-gif {
-        max-width: 250px;
+        max-width: 250px; /* GIF más pequeño en móviles */
     }
 }
