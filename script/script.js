@@ -26,5 +26,5 @@ noBtn.addEventListener('click', function () {
 
 // Redirigir al hacer clic en "Sí"
 siBtn.addEventListener('click', function () {
-    window.location.href = 'sabia-que-querias.html';
+    window.location.href = '../yes.html';
 });
